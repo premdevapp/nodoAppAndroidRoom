@@ -15,7 +15,7 @@ public abstract class NoDoRoomDatabase extends RoomDatabase {
 
     public abstract NoDoDAO noDoDAO();
 
-    static NoDoRoomDatabase getDatabase(final Context context){
+    public static NoDoRoomDatabase getDatabase(final Context context){
         if (INSTANCE == null){
             synchronized (NoDoRoomDatabase.class){
                 if (INSTANCE == null){
