@@ -27,12 +27,12 @@ public class NoDoRepository {
 
     }
 
-    LiveData<List<Nodo>> getAllNoDos(){
+    public LiveData<List<Nodo>> getAllNoDos(){
 
         return allNoDos;
     }
 
-    void insert(Nodo nodo){
+    public void insert(Nodo nodo){
         new insertAsyncTask(noDoDAO).execute(nodo);
     }
 
