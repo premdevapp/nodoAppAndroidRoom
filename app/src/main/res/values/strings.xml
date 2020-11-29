@@ -11,4 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="todo">TODO</string>
     <string name="no_notodo">No noTodo</string>
+    <string name="hint_nodo">Enter a nodo</string>
+    <string name="save_text">Save</string>
+    <string name="empty_not_save">No Saved</string>
 </resources>

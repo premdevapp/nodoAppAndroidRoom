@@ -22,11 +22,11 @@ public class NoDoViewModel extends AndroidViewModel {
         allNodos = noDoRepository.getAllNoDos();
     }
 
-    protected  LiveData<List<Nodo>> getAllNodos(){
+    public   LiveData<List<Nodo>> getAllNodos(){
         return allNodos;
     }
 
-    protected void insert(Nodo nodo){
+    public void insert(Nodo nodo){
         noDoRepository.insert(nodo);
     }
 
